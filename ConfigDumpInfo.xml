@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
+	<ConfigVersions>
+		<Metadata name="AccumulationRegister.ПребываниеПациента" id="3cb83317-6178-4f76-a437-b16bcb7be084" configVersion="901cab474c967349a60d57b7336e77a300000000">
+			<Metadata name="AccumulationRegister.ПребываниеПациента.Dimension.Пациент" id="50c44095-8f64-4546-b233-5b3e5e24990e"/>
+			<Metadata name="AccumulationRegister.ПребываниеПациента.Resource.КоличествоДней" id="77157485-c16b-4f57-90a1-1843bced0432"/>
+			<Metadata name="AccumulationRegister.ПребываниеПациента.Dimension.Дата" id="78c59c46-f878-4120-ac85-b3913189aa65"/>
+		</Metadata>
+		<Metadata name="AccumulationRegister.РасходМедикаментов" id="f03bd3f3-591f-4953-b922-635cb7115d55" configVersion="b375ecb935e57240b64115a28bc5893f00000000">
+			<Metadata name="AccumulationRegister.РасходМедикаментов.Resource.Количество" id="117f587d-8c3a-45ed-9b7e-f34635a6afb5"/>
+			<Metadata name="AccumulationRegister.РасходМедикаментов.Dimension.Пациент" id="34492c19-6d7b-4748-ba83-a991e456af14"/>
+			<Metadata name="AccumulationRegister.РасходМедикаментов.Dimension.Лекарства" id="65785f5d-c0f7-4629-b97a-a382e338627b"/>
+			<Metadata name="AccumulationRegister.РасходМедикаментов.Dimension.Дата" id="a90bede9-f695-4ed5-a8a1-c8a144dc2442"/>
+		</Metadata>
+		<Metadata name="AccumulationRegister.РасходПитания" id="c1ead30e-add8-499b-9d2f-f7e555ebd15d" configVersion="ec3ca21c8d004a468dd6c3def00349ef00000000">
+			<Metadata name="AccumulationRegister.РасходПитания.Resource.Количество" id="702d7286-7702-4c19-949d-e41481bbb34a"/>
+			<Metadata name="AccumulationRegister.РасходПитания.Dimension.Питание" id="7031e849-50a1-413f-a895-56b71021fddb"/>
+			<Metadata name="AccumulationRegister.РасходПитания.Dimension.Пациент" id="70f97885-bf45-4359-9cef-17e4b77254bc"/>
+			<Metadata name="AccumulationRegister.РасходПитания.Dimension.Дата" id="f700f3f3-440e-4474-9337-79a6b24066a6"/>
+		</Metadata>
+		<Metadata name="Catalog.ЛекарственныеПрепараты" id="2efde80d-4c63-4cb1-a2e7-967df0d2cbd3" configVersion="300ee79f69b8d34790a506b6e6c4cf0300000000">
+			<Metadata name="Catalog.ЛекарственныеПрепараты.Attribute.Производитель" id="708955f2-3899-45cc-b43e-c0b8983e8a75"/>
+			<Metadata name="Catalog.ЛекарственныеПрепараты.Attribute.ЕдиницаИзмерения" id="9a1ad9b7-115d-4bf3-9e08-f339aecc6304"/>
+			<Metadata name="Catalog.ЛекарственныеПрепараты.Attribute.Цена" id="e8577dfe-4fd8-485b-b930-b19714d12d5c"/>
+		</Metadata>
+		<Metadata name="Catalog.МедицинскиеУслуги" id="9bc1bba6-734d-4567-8902-292e1611c313" configVersion="2967dbf3e0a64540ab214be877afd5c900000000">
+			<Metadata name="Catalog.МедицинскиеУслуги.Attribute.Цена" id="9986064f-beee-4b28-b0ec-2669a84e75f5"/>
+			<Metadata name="Catalog.МедицинскиеУслуги.Attribute.Категория" id="ad7bd57c-1e0f-407e-bdfa-1f9d6088d364"/>
+		</Metadata>
+		<Metadata name="Catalog.ОтделениеСтационара" id="b6b9f4e2-b775-4733-928b-967fab444650" configVersion="b27303b28122f04c9b635f31dabaf98300000000">
+			<Metadata name="Catalog.ОтделениеСтационара.Attribute.Ответственный" id="066ba39e-2d85-4773-a3b5-9e4262f41b0e"/>
+			<Metadata name="Catalog.ОтделениеСтационара.Attribute.Местоположение" id="29528ee2-f45a-4abe-a6e9-59e908eeb713"/>
+		</Metadata>
+		<Metadata name="Catalog.Палаты" id="ec820ded-dc57-4f60-a8f5-cf72470c4455" configVersion="08cca4466beba54f8fd7875da6e4537f00000000">
+			<Metadata name="Catalog.Палаты.Attribute.Отделение" id="0fbab6dc-b0f3-42ec-8bf8-59c4d209e742"/>
+			<Metadata name="Catalog.Палаты.Attribute.КоличествоКоев" id="4cdb8d38-d121-4fc6-93c2-8205dd23a161"/>
+			<Metadata name="Catalog.Палаты.Attribute.Номер" id="e3ed76f0-2ba7-487c-8325-890f57b5d665"/>
+		</Metadata>
+		<Metadata name="Catalog.Пациенты" id="c3f16b37-5597-4149-b3dd-452ce3f0a1fd" configVersion="183fe18ce1dd7e418cbd6d3d0f75c25300000000">
+			<Metadata name="Catalog.Пациенты.Attribute.КонтактныеДанные" id="3150874b-bcbf-4999-9bba-7bc6d1c0f623"/>
+			<Metadata name="Catalog.Пациенты.Attribute.Пол" id="92af92b9-9557-46d7-988f-829413765da9"/>
+			<Metadata name="Catalog.Пациенты.Attribute.Контакты" id="bbdea4b3-98c4-4a02-a32d-9b503662cfdd"/>
+			<Metadata name="Catalog.Пациенты.Attribute.Льготы" id="c41ae68e-7033-4dfa-8a20-a53329a691c5"/>
+			<Metadata name="Catalog.Пациенты.Attribute.ПолисОМС" id="c4660546-c211-484e-b8aa-ab81cdbc766b"/>
+			<Metadata name="Catalog.Пациенты.Attribute.ДатаРождения" id="fb668e84-fccc-435f-85aa-c1613b9845f2"/>
+		</Metadata>
+		<Metadata name="Catalog.Питание" id="57410909-59c9-472e-b732-24542432b09a" configVersion="0befbb3f7886d44388129f8ff4af44b700000000">
+			<Metadata name="Catalog.Питание.Attribute.Цена" id="2a9c624c-3968-481e-92ab-e52d850a740d"/>
+			<Metadata name="Catalog.Питание.Attribute.ВремяПриема" id="96a3c59e-ffd5-4b64-a31e-7488ced21fcd"/>
+			<Metadata name="Catalog.Питание.Attribute.МенюБлюд" id="aea52de0-b3fb-4752-9db6-ea072a2d3396"/>
+		</Metadata>
+		<Metadata name="Catalog.Пол" id="f35aa91a-4cf3-4e1c-8a49-e874fa9d50d8" configVersion="82503f7dc62c9846b4cbe8d3ef3eba7300000000"/>
+		<Metadata name="Catalog.Сотрудники" id="78cc5e3b-2316-454b-9cb8-e0e6eefe82e1" configVersion="da3f612b6b31d141acf26319d78474d000000000">
+			<Metadata name="Catalog.Сотрудники.Attribute.ДатаРождения" id="69bd6c55-1f8a-4c26-beac-878a29b164d6"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.Должность" id="e83db08f-5412-4ef8-bb1b-4bbb16a2f585"/>
+		</Metadata>
+		<Metadata name="Configuration.Конфигурация" id="9553e449-184a-4dc7-a77b-168582f26495" configVersion="b9b21dd666446b438ba7198be296ad5500000000"/>
+		<Metadata name="Document.ВыпискаПациента" id="5c4bdaae-bed4-4c28-a4e4-c038a1e5d647" configVersion="59c7aa688429a44cb2bd6c168923041e00000000">
+			<Metadata name="Document.ВыпискаПациента.Attribute.ДатаВыписки" id="0a06eb01-0817-4352-9664-c8c5ef27d742"/>
+			<Metadata name="Document.ВыпискаПациента.Attribute.Заключение" id="469fb97b-905c-48d7-82f9-6a69bd33835a"/>
+			<Metadata name="Document.ВыпискаПациента.Attribute.Пациент" id="48d9a93e-b3ef-4130-87fb-3d4c95575a54"/>
+			<Metadata name="Document.ВыпискаПациента.Attribute.ИтоговаяСтоимость" id="cc284a2b-56c3-43c9-8368-258ae4fd5af7"/>
+		</Metadata>
+		<Metadata name="Document.ПребываниеПациента" id="31186caa-ebd0-493a-92ec-f9313f9a5d8c" configVersion="70bd57c1292dd7489b03b6568987618200000000">
+			<Metadata name="Document.ПребываниеПациента.TabularSection.Лекарства.Attribute.Доза" id="22c96d47-b49e-4e8f-b733-e6ef7cf0edc4"/>
+			<Metadata name="Document.ПребываниеПациента.TabularSection.Питание" id="43982689-09e7-4c68-a31b-26fd7880d0a9"/>
+			<Metadata name="Document.ПребываниеПациента.TabularSection.Питание.Attribute.Количество" id="538390bf-c366-4a02-97d7-675796f9f390"/>
+			<Metadata name="Document.ПребываниеПациента.Attribute.Ответственный" id="5df93450-1169-4060-9aa7-d4ab0a1bfc94"/>
+			<Metadata name="Document.ПребываниеПациента.TabularSection.Лекарства.Attribute.Количество" id="61765865-0f62-4f23-a65a-eaeb45e27ad3"/>
+			<Metadata name="Document.ПребываниеПациента.Attribute.Палата" id="7d659367-2eed-49eb-bb1b-4abf25ff0f65"/>
+			<Metadata name="Document.ПребываниеПациента.TabularSection.Услуги" id="8dd93416-7f97-498a-9b5e-62940b562c6e"/>
+			<Metadata name="Document.ПребываниеПациента.TabularSection.Услуги.Attribute.Услуга" id="a4637437-8757-4c57-a51e-6fe16d67945a"/>
+			<Metadata name="Document.ПребываниеПациента.TabularSection.Лекарства.Attribute.Лекарство" id="b21c6c1c-1da8-4d0e-8044-b3e48b77ea85"/>
+			<Metadata name="Document.ПребываниеПациента.TabularSection.Лекарства" id="c2e86e39-2448-4479-a7db-c3648e62abc9"/>
+			<Metadata name="Document.ПребываниеПациента.Attribute.Пациент" id="d35bc5ff-cc39-4084-a181-4c076ec1421c"/>
+			<Metadata name="Document.ПребываниеПациента.TabularSection.Услуги.Attribute.Количество" id="d733013b-b1ed-4c69-b693-268366452cbc"/>
+			<Metadata name="Document.ПребываниеПациента.TabularSection.Питание.Attribute.Питание" id="edb46842-58cf-4bd7-85eb-f1ded4676469"/>
+			<Metadata name="Document.ПребываниеПациента.Attribute.Дата1" id="ee4ca126-ab2b-41e0-9478-4e79b0ff9d04"/>
+		</Metadata>
+		<Metadata name="Document.ПребываниеПациента.ObjectModule" id="31186caa-ebd0-493a-92ec-f9313f9a5d8c.0" configVersion="7592a30c0e8bc548a980c993e942844200000000"/>
+		<Metadata name="Document.ПриемВДневнойСтационар" id="2d47b167-3234-4837-971f-913f1fbce36b" configVersion="32f7a5f6f9ed60478e2fae39daf3bd3700000000">
+			<Metadata name="Document.ПриемВДневнойСтационар.Attribute.Пациент" id="0dee3238-ab31-4e34-8f2e-b76e385aeb36"/>
+			<Metadata name="Document.ПриемВДневнойСтационар.Attribute.ПланированиеДатаОкончание" id="71dd991e-73b5-447d-a9d3-8404f1ce7793"/>
+			<Metadata name="Document.ПриемВДневнойСтационар.Attribute.Врач" id="72526dc4-62d5-4443-ace2-7f1ddd63c356"/>
+			<Metadata name="Document.ПриемВДневнойСтационар.Attribute.ДатаНачала" id="9d86c446-a5b5-42b9-8689-ed4771626454"/>
+			<Metadata name="Document.ПриемВДневнойСтационар.Attribute.Палата" id="c3a03695-fca4-452d-ae9d-e663e79f66ef"/>
+		</Metadata>
+		<Metadata name="Document.РасчетСтоимостиПребывания" id="12654c2a-9759-445a-bf57-3b86cf676311" configVersion="26c55b7b2c5fed4faa5e092d59e0906400000000">
+			<Metadata name="Document.РасчетСтоимостиПребывания.Attribute.ОбщаяСтоимость" id="0b0d5c1e-4746-408a-b077-d864e554d9cc"/>
+			<Metadata name="Document.РасчетСтоимостиПребывания.Attribute.СтоимостьУслуг" id="309fcb33-4a16-4a2e-929f-de3f074d2e59"/>
+			<Metadata name="Document.РасчетСтоимостиПребывания.Attribute.СтоимостьЛекарств" id="80a05188-96b6-46b8-9bf0-85c835fe503a"/>
+			<Metadata name="Document.РасчетСтоимостиПребывания.Attribute.Пациент" id="9bfb29bb-f189-47d6-964f-e86f2eed5a57"/>
+			<Metadata name="Document.РасчетСтоимостиПребывания.Attribute.СтоимостьПитания" id="a481b5ba-adab-4bb3-94d5-211436580ce6"/>
+			<Metadata name="Document.РасчетСтоимостиПребывания.Attribute.Период" id="aed61266-e9c4-4ccf-b265-ccaebe5fe22c"/>
+		</Metadata>
+		<Metadata name="Document.РасчетСтоимостиПребывания.Form.ФормаДокумента" id="2c9a5b5f-4dbb-411a-85b9-1aa94799a19a" configVersion="856a65fa535ee945a0d8bc8376bc365900000000"/>
+		<Metadata name="Document.РасчетСтоимостиПребывания.Form.ФормаДокумента.Form" id="2c9a5b5f-4dbb-411a-85b9-1aa94799a19a.0" configVersion="7d43740e449e16479a67fce08692072400000000"/>
+		<Metadata name="Document.РасчетСтоимостиПребывания.ObjectModule" id="12654c2a-9759-445a-bf57-3b86cf676311.0" configVersion="ea1aaea0c255d64cb1d88cce572160fa00000000"/>
+		<Metadata name="Document.СписаниеМедикаментовИПитания" id="146a78c3-b025-4f57-8ef2-dd7d87af601c" configVersion="07998c77f28ccf41a77e75f7ef31afa300000000">
+			<Metadata name="Document.СписаниеМедикаментовИПитания.Attribute.Дата1" id="13642ecf-3454-40ba-ae18-42f8c039f5da"/>
+			<Metadata name="Document.СписаниеМедикаментовИПитания.TabularSection.СписанныеЛекарства.Attribute.Лекарства" id="1bd96331-8a5b-44d2-8dbc-250bfb4579ca"/>
+			<Metadata name="Document.СписаниеМедикаментовИПитания.TabularSection.СписанноеПитание.Attribute.Количество" id="6b344592-b195-47a5-a36b-bd70e0732a55"/>
+			<Metadata name="Document.СписаниеМедикаментовИПитания.TabularSection.СписанноеПитание.Attribute.Питание" id="77e70b99-48dd-4aaa-8a61-69d454858364"/>
+			<Metadata name="Document.СписаниеМедикаментовИПитания.Attribute.Пациент" id="8a094211-b44c-487d-8f25-f56d48fc3d3a"/>
+			<Metadata name="Document.СписаниеМедикаментовИПитания.TabularSection.СписанноеПитание" id="aca1766c-9223-4461-8211-4f8dd430685c"/>
+			<Metadata name="Document.СписаниеМедикаментовИПитания.TabularSection.СписанныеЛекарства.Attribute.Количество" id="b551b890-a88d-4946-9bb7-745f2f7ee30c"/>
+			<Metadata name="Document.СписаниеМедикаментовИПитания.TabularSection.СписанныеЛекарства" id="ebc2ead5-1f7a-416d-b564-0f4f89e02500"/>
+		</Metadata>
+		<Metadata name="Document.СписаниеМедикаментовИПитания.ObjectModule" id="146a78c3-b025-4f57-8ef2-dd7d87af601c.0" configVersion="7c1294de247c1547a2acd650c44176e800000000"/>
+		<Metadata name="Language.Русский" id="f2d95ffb-28ee-4d39-9aa8-9ef2a992d961" configVersion="a4b86832dfb4c845bbc4301b2c61abb800000000"/>
+		<Metadata name="Report.ОтчетПоЗагрузкеИДоходам" id="a183ca77-c4d8-4001-ba7d-eb964326afb1" configVersion="11bc131641b7bb4d8f9b129b33f6e4fb00000000"/>
+		<Metadata name="Report.ОтчетПоЗагрузкеИДоходам.Template.ОсновнаяСхемаКомпоновкиДанных" id="0132c194-71c2-4664-b9c8-58f1a65745e9" configVersion="3cb0d68e0233944787641533b46bf26800000000"/>
+		<Metadata name="Report.ОтчетПоЗагрузкеИДоходам.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="0132c194-71c2-4664-b9c8-58f1a65745e9.0" configVersion="b3b16963e1a2e540aaedb4f6a8a8774400000000"/>
+		<Metadata name="Report.ФинансовыйОтчет" id="98453e6d-2ac8-48f2-98aa-768e4838274c" configVersion="4b1cda1c5f12aa48b89b2a5379b08cf300000000"/>
+		<Metadata name="Report.ФинансовыйОтчет.Template.ОсновнаяСхемаКомпоновкиДанных" id="32d03bad-d758-492e-b9a1-a4dc2101cdba" configVersion="dab44fc8f0d23c4baaea6c487b86925b00000000"/>
+		<Metadata name="Report.ФинансовыйОтчет.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="32d03bad-d758-492e-b9a1-a4dc2101cdba.0" configVersion="a4e92da973ba3f4c9860523e7884a84400000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
